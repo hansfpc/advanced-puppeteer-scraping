@@ -1,0 +1,62 @@
+[
+	{
+		"id": "660",
+		"nombre": "643",
+		"nro_cliente_agua": "",
+		"nro_cliente_luz": "2754330-8"
+	},
+	{
+		"id": "730",
+		"nombre": "318",
+		"nro_cliente_agua": "1752817-3",
+		"nro_cliente_luz": ""
+	},
+	{
+		"id": "761",
+		"nombre": "171",
+		"nro_cliente_agua": "asdfasdf",
+		"nro_cliente_luz": "27158617"
+	},
+	{
+		"id": "824",
+		"nombre": "1080",
+		"nro_cliente_agua": "1861733-1",
+		"nro_cliente_luz": "asdfsdf-2"
+	},
+	{
+		"id": "846",
+		"nombre": "11",
+		"nro_cliente_agua": "1752287-6",
+		"nro_cliente_luz": "2715879-k"
+	},
+	{
+		"id": "851",
+		"nombre": "1094",
+		"nro_cliente_agua": "1861866-4",
+		"nro_cliente_luz": "2839042-4"
+	},
+	{
+		"id": "857",
+		"nombre": "3244",
+		"nro_cliente_agua": "18008386",
+		"nro_cliente_luz": "27976654"
+	},
+	{
+		"id": "860",
+		"nombre": "3246",
+		"nro_cliente_agua": "1800829-7",
+		"nro_cliente_luz": "2797657-3"
+	},
+	{
+		"id": "868",
+		"nombre": "2781",
+		"nro_cliente_agua": "1752845-9",
+		"nro_cliente_luz": "2699347-4"
+	},
+	{
+		"id": "888",
+		"nombre": "1952",
+		"nro_cliente_agua": "1928577-4",
+		"nro_cliente_luz": ""
+	}
+]

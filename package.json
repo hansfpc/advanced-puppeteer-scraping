@@ -1,0 +1,29 @@
+{
+  "name": "asset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=production || SET NODE_ENV=production && pm2 start server.js && pm2 start sAguasAndinas.js && pm2 start sEnel.js && pm2 log",
+    "dev": "export NODE_ENV=development || SET NODE_ENV=development && nodemon sEnel.js",
+    "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha test/*.test.js",
+    "test-watch": "nodemon --exec 'npm test' ",
+    "devdata": "export NODE_ENV=development || SET NODE_ENV=development && export PORT=5000 || SET PORT=5000 && node upsertProperties.js",
+    "proddata": "export NODE_ENV=production || SET NODE_ENV=production && export PORT=5000 || SET PORT=5000 && node upsertProperties.js"
+  },
+  "author": "hansfpc",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10",
+    "nodemailer": "^4.2.0",
+    "puppeteer": "^0.10.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.12.0"
+  }
+}
